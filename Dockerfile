@@ -7,7 +7,7 @@
 # Pull base image.
 FROM qqdsfmt/webrtc_checkout
 
-ADD root/depot_tools.sh /root/checkout.sh
+ADD root/checkout.sh /root/checkout.sh
 
 RUN \
    /root/checkout.sh
